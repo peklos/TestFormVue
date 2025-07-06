@@ -131,7 +131,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { ref } from "vue";
 import { useUsersStore } from "../stores/usersStore.ts";
 
 const isPasswordVisible = ref(false);
